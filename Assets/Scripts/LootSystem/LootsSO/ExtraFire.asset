@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abe1c5bd833bad468597fdca036e1d0, type: 3}
+  m_Name: ExtraFire
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: e007e0fc94a8b2d4fb50b7ac80a38022, type: 3}
+  lootName: ExtraFire
