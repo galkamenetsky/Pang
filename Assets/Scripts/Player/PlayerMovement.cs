@@ -51,7 +51,6 @@ public class PlayerMovement : MonoBehaviour
     }
     public void MoveCallback(CallbackContext context)
     {
-        Debug.Log("check");
         Move(context.ReadValue<Vector2>().x);
     }
 }
