@@ -21,14 +21,10 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        //horizontal = playerInput.actions["Move"].ReadValue<Vector2>().x;
-       // Debug.Log(horizontal);
         Flip();
     }
     private void FixedUpdate()
     {
-       // horizontal = inputAction.ReadValue<Vector2>().x;
-      //  Debug.Log(horizontal);
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
     private void Flip()
